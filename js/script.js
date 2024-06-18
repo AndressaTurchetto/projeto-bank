@@ -25,13 +25,14 @@ camposDoFormulario.forEach((campo) => {
 })
 
 const tiposDeErro = [
-    'valueMissing',
-    'typeMismatch',
-    'patternMismatch',
-    'tooShort',
-    'customError'
+    'valueMissing', //valor ausente
+    'typeMismatch', //tipo incompatível
+    'patternMismatch', //padrão incompatível
+    'tooShort', //muito curto
+    'customError' //erro personalizado
 ]
 
+//Mensagens de erro personalizadas
 const mensagens = {
     nome: {
         valueMissing: "O campo de nome não pode estar vazio.",
@@ -63,6 +64,15 @@ const mensagens = {
     }
 }
 
+function formatarData(data) {
+    const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+    return data.toLocaleDateString('pt-BR', options);
+}
+
+const data = new Date();
+console.log(formatarData(data));
+
+//Verifica dados
 function verificaCampo(campo) {
     let mensagem = "";
     campo.setCustomValidity('');

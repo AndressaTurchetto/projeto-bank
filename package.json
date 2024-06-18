@@ -1,0 +1,23 @@
+{
+  "name": "projeto-bank",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">Formulário de criação de contas para o banco virtual DeBank.</p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndressaTurchetto/projeto-bank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndressaTurchetto/projeto-bank/issues"
+  },
+  "homepage": "https://github.com/AndressaTurchetto/projeto-bank#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

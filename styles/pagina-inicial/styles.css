@@ -1,10 +1,3 @@
-/* .beneficios__titulo {
-    font-size: 28px;
-    text-align: center;
-    font-weight: 600;
-    margin: 1em 0;
-} */
-
 .servicos {
     text-align: center;
     padding: 2em 1em;
@@ -15,21 +8,6 @@
     margin-bottom: 1em;
 }
 
-/* .lista-servicos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1em;
-    list-style: none;
-    padding: 0;
-}
-
-.lista-servicos {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-} */
-
 .item-servicos {
     display: flex;
     flex-direction: column;
@@ -38,27 +16,6 @@
     padding: 1em;
     box-sizing: border-box;
 }
-
-/* .item-servicos__imagem {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-} */
-
-/* .item-servicos__titulo {
-    font-size: 1.2em;
-    margin-top: 0.5em;
-    font-weight: 600;
-} */
-
-.marca {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 148px;
-    margin: 15px;
-}
-
 
 .conta__container {
     width: 80%;
@@ -86,118 +43,33 @@
     padding: 0.5em;
 }
 
-/* .beneficios-lista {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 4em;
-    text-align: center;
-    width: 180px;
-}
-
-.beneficios-lista__item {
-    width: 20%;
-}
-
-.beneficios__icone {
-    width: 80px;
-    height: 80px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-} */
-
-.container-contatos {
-    width: 500px;
-    padding: 10px;
-    position: absolute;
-    bottom: 8%;
-    right: 0;
-    left: 0;
-    margin: auto;
-    background-color: #604829;
-}
-
-.container-contatos p {
-    color: #fff;
-    font-family: "Oswald", sans-serif;
-    line-height: 36px;
-    text-shadow: 0px 6px 8px #000000;
-    text-align: center;
-}
-
 .container {
-    padding: 120px 80px;
+    padding: 80px 80px;
 }
 
-/* Início CSS Marcas */
-.container-marcas {
+.container-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    gap: 20px; /* Espaçamento entre as marcas */
+    gap: 20px;
 }
-.logo-marca {
+
+.marca {
     display: flex;
     flex-direction: column;
-    align-items: center;
     max-width: 148px;
     margin: 15px;
 }
-/* Fim CSS Marcas */
+
+.marca img {
+    border-radius: 15px;
+}
 
 .onde-estamos {
     text-align: center;
-}
-.onde-estamos p {
-    color: #3c184e;
     font-size: 20px;
     margin: 0 0 45px;
-}
-.onde-estamos iframe {
-    width: 800px;
-    height: 450px;
-}
-
-
-/* .icone-presente {
-    background-image: url('../../img/Presente.png');
-}
-
-.icone-saque {
-    background-image: url('../../img/Saque.png');
-}
-
-.icone-estrela {
-    background-image: url('../../img/Estrela.png')
-}
-
-.icone-gato {
-    background-image: url('../../img/Gato.png')
-} */
-
-.beneficios-lista__titulo {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: var(--azul-claro);
-    margin: .5em 0;
-}
-
-@media screen and (max-width: 798px) {
-    .beneficios-lista {
-        display: block;
-        margin: 1em;
-    }
-
-    .beneficios-lista__item {
-        width: 100%;
-    }
-
-    .conta__titulo {
-        padding: 1em 0;
-    }
 }

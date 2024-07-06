@@ -4,7 +4,7 @@
 :root {
     --fonte-principal: 'Montserrat', sans-serif;
     --fonte-logo: 'Inter', sans-serif;
-    --azul-claro: #492E87;
+    --azul-claro: #009FBD;
     --preto: #000000;
     --branco: #FFFFFF;
 }
@@ -13,8 +13,4 @@ body {
     font-family: var(--fonte-principal);
     color: var(--preto);
     font-size: 16px;
-}
-
-.cabecalho__logo-link {
-    text-decoration: none;
 }

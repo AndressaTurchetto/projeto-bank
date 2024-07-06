@@ -96,4 +96,5 @@ function verificaCampo(campo) {
     } else {
         mensagemErro.textContent = "";
     }
+    
 }

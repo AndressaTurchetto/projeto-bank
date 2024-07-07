@@ -98,3 +98,24 @@ function verificaCampo(campo) {
     }
     
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    const elements = document.querySelectorAll('.servicos__titulo, .beneficios-lista__titulo, .principais-marcas h3, .onde-estamos h3, .onde-estamos p, .rodape__titulo, .rodape__lista li, .rodape__logo');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.animation = `fadeInUp 1s ease forwards`;
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.5
+    });
+
+    elements.forEach(element => {
+        observer.observe(element);
+    });
+});
+
+
+

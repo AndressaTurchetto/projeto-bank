@@ -13,4 +13,5 @@ body {
     font-family: var(--fonte-principal);
     color: var(--preto);
     font-size: 16px;
+    background-color: #808080;
 }
